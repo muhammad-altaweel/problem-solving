@@ -13,6 +13,7 @@
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
+        // add comments to explain problem
         vector<int> sol;
         solve(root, sol, 1);
         return sol;
